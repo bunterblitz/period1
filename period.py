@@ -252,7 +252,7 @@ def write_list_2d(sheet, l_2d, start_row, start_col):
             sheet.cell(row=start_row + y,
                        column=start_col + x,
                        value=l_2d[y][x])
-write_list(x, "ω:固有円振動数(Hz)", 5, 3)
+#write_list(x, "ω:固有円振動数(Hz)", 5, 3)
 write_list(x, x_omega2, 4, 5)
 write_list(x, x_omega, 5, 5)
 write_list(x, X_period, 6, 5)
