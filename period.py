@@ -52,7 +52,7 @@ M_inv = np.linalg.inv(m)
 M = np.array(M_inv)
 pd_M=pd.DataFrame(M ,columns=dim,index=floor_num)
 print(pd_M)
-#===============================
+#=================================
 def k_matrix(input_k):
     k_sort=[]
     k_sort=input_k[::-1]
